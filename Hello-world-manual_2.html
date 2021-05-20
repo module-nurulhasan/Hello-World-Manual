@@ -13,14 +13,14 @@
       <!--add type="text/babel" attribute in component js files to use JSX-->
   <!--<script type="text/babel" src="jsx.js"></script>-->
   <script type="text/babel">
-
+     /*React component called App*/
 class App extends React.Component {
-        render() {
-          return <h1>Hello world!</h1>
+        render() { /*render is the only required method in a class component which is used to render DOM nodes*/
+          return <h1>Hello world!</h1>//JSX inside return
         }
       }
 
-      ReactDOM.render(<App />, document.getElementById('root'))
+      ReactDOM.render(<App />, document.getElementById('root'))// render the App class we created into the root div of HTML 
 
   </script>
 </body>
