@@ -1,0 +1,23 @@
+<head>
+    <title>JSX</title>
+</head>
+<body>
+    <div id='root'></div>
+    <!--CDN that loads react API-->
+    <script src="https://unpkg.com/react@17/umd/react.development.js" crossorigin></script>  
+     <!--CDN that loads react dom specific methods-->
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js" crossorigin></script>
+     <!--CDN that loads Babel for JSX-->
+     <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+     <!--Loads component code-->
+      <!--add type="text/babel" attribute in component js files to use JSX-->
+  <!--<script type="text/babel" src="jsx.js"></script>-->
+  <script type="text/babel">
+
+    ReactDOM.render(
+      <h1>Hello, world!</h1>,document.getElementById('root')
+    );
+
+  </script>
+</body>
+</html>
